@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isDataPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-data-property-in@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-data-property-in/tags). For example,
+
+```javascript
 import isDataPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-data-property-in@v0.2.3-esm/index.mjs';
 ```
 
@@ -136,7 +141,7 @@ bool = isDataPropertyIn( obj, 'accessor' );
 <body>
 <script type="module">
 
-import isDataPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-data-property-in@v0.2.3-esm/index.mjs';
+import isDataPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-data-property-in@esm/index.mjs';
 
 var bool = isDataPropertyIn( [ 'a' ], 'length' );
 // returns true
