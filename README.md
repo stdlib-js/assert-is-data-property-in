@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isDataPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-data-property-in@esm/index.mjs';
+import isDataPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-data-property-in@v0.2.3-esm/index.mjs';
 ```
 
 #### isDataPropertyIn( value, property )
@@ -136,7 +136,7 @@ bool = isDataPropertyIn( obj, 'accessor' );
 <body>
 <script type="module">
 
-import isDataPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-data-property-in@esm/index.mjs';
+import isDataPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-data-property-in@v0.2.3-esm/index.mjs';
 
 var bool = isDataPropertyIn( [ 'a' ], 'length' );
 // returns true
